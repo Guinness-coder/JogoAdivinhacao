@@ -4,7 +4,7 @@ Jogo de adivinhação de números desenvolvido em Python com **Programação Ori
 
 ---
 
-## 📋 Funcionalidades
+## Funcionalidades
 
 - Geração aleatória de número secreto (1 a 100)
 - Sistema de pontuação dinâmico por dificuldade
@@ -37,7 +37,7 @@ Ranking
 
 ---
 
-## 🧩 Classes
+## Classes
 
 ### `Jogo` (Classe Abstrata)
 Define o contrato base para qualquer jogo. Métodos abstratos:
@@ -68,7 +68,7 @@ Gerencia a lista de jogadores e exibe a classificação final ordenada por pontu
 
 ---
 
-## ⚙️ Dificuldades
+## Dificuldades
 
 | Nível    | Penalidade por erro |
 |----------|---------------------|
@@ -80,7 +80,7 @@ Gerencia a lista de jogadores e exibe a classificação final ordenada por pontu
 
 ---
 
-## ▶️ Como Executar
+## Como Executar
 
 ### Pré-requisitos
 - Python 3.8 ou superior
@@ -103,7 +103,7 @@ Ou pelo **Google Colab**: acesse o notebook e execute todas as células em ordem
 
 ---
 
-## 🎮 Como Jogar
+## Como Jogar
 
 1. Digite seu nome quando solicitado
 2. Escolha a dificuldade: `facil`, `medio` ou `dificil`
