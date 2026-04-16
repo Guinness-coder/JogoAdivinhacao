@@ -112,6 +112,29 @@ Ou pelo **Google Colab**: acesse o notebook e execute todas as células em ordem
 5. Acerte antes de usar as 10 tentativas para ganhar pontos
 6. Ao final, o ranking de todos os jogadores da sessão é exibido
 
+## Conceitos de POO Utilizados
+
+- **Abstração** — classe `Jogo` define interface comum via `ABC`
+- **Herança** — `JogoAdivinhação` estende `Jogo`
+- **Encapsulamento** — atributos privados com prefixo `_` (`_numero_secreto`, `_tentativas`, etc.)
+- **Polimorfismo** — implementação dos métodos abstratos `iniciar()` e `jogar()`
+
+---
+
+## Melhorias Futuras
+
+- [ ] Salvar ranking em arquivo `.json` ou banco de dados
+- [ ] Interface gráfica com `tkinter` ou web com `Flask`
+- [ ] Novos modos de jogo (ex: tempo limitado)
+- [ ] Testes automatizados com `pytest`
+
+---
+
+##  Licença
+
+Este projeto está sob a licença de Guilherme de Almeida Cavalcante
+
+
 ### Exemplo de execução
 
 ```````````````````````````````````````````````````
@@ -238,24 +261,3 @@ Ranking:
  4. Player4: -50 pontos
 `````````````````````````````````````````````
 
-## Conceitos de POO Utilizados
-
-- **Abstração** — classe `Jogo` define interface comum via `ABC`
-- **Herança** — `JogoAdivinhação` estende `Jogo`
-- **Encapsulamento** — atributos privados com prefixo `_` (`_numero_secreto`, `_tentativas`, etc.)
-- **Polimorfismo** — implementação dos métodos abstratos `iniciar()` e `jogar()`
-
----
-
-## Melhorias Futuras
-
-- [ ] Salvar ranking em arquivo `.json` ou banco de dados
-- [ ] Interface gráfica com `tkinter` ou web com `Flask`
-- [ ] Novos modos de jogo (ex: tempo limitado)
-- [ ] Testes automatizados com `pytest`
-
----
-
-##  Licença
-
-Este projeto está sob a licença de Guilherme de Almeida Cavalcante
