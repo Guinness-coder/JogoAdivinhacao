@@ -1,4 +1,4 @@
-# 🎮 Jogo da Adivinhação
+# Jogo da Adivinhação
 
 Jogo de adivinhação de números desenvolvido em Python com **Programação Orientada a Objetos (POO)**, utilizando conceitos de abstração, encapsulamento e herança. O jogador tenta adivinhar um número secreto entre 1 e 100, gerenciando sua pontuação conforme a dificuldade escolhida.
 
